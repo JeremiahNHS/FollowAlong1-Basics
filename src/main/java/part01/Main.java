@@ -14,5 +14,7 @@ package part01;
 //    saying in YOUR OWN WORDS what that line does. The README shows an example.
 
 public class Main {
+    public static void main(String[] args){
 
+    }
 }
