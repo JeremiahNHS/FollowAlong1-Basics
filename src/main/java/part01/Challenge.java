@@ -7,7 +7,23 @@ package part01;
 // SECTION D — Challenge. Draw a picture. The README lists the rules.
 //
 // There is no main method here yet. Typing it is part of the challenge.
-
+/*
+     Jeremiah Faustin
+            ________
+          ""\\\\\\\\\\"
+          "|  ^   ^ |"
+          @+   O|O  +@
+           |      ()- )------------------*#|
+           +---###--+
+*/
 public class Challenge {
+    public static void main(String[] args){
+        System.out.print("  ________\n");
+        System.out.print("\"\"\\\\\\\\\\\\\\\\\\\\\"\n");
+        System.out.print("\"|  ^   ^ |\"\n");
+        System.out.print("@+   O|O  +@\n");
+        System.out.print(" |\t\t()- )------------------*#|\n");
+        System.out.print(" +---###--+");
 
+    }
 }
