@@ -12,5 +12,9 @@ package part02;
 // You will need to type the main method yourself. That is the point.
 
 public class Warmup {
-
+    public static void main(String[] args){
+        System.out.print("Jeremiah Faustin\n");
+        System.out.print("Computer Science\n");
+        System.out.println("Class of 2028");
+    }
 }
