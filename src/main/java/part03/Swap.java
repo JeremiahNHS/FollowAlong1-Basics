@@ -13,18 +13,25 @@ package part03;
 //
 // SECTION B — COMMENTS: when you finish, put a // comment ABOVE every line of code,
 //    saying in YOUR OWN WORDS what that line does. The README shows an example.
-
+// This line defines the name of the class as Variables.
 public class Swap {
+    // The main method notifies the Java that this is the start of the program and makes it executable.
     public static void main(String[] args){
+        // initializes variable x of type string which holds the string "water"
         String x = "water";
+        // initializes variable y of type string which holds the string "Kool-Aid"
         String y = "Kool-Aid";
+        // this is the declaration of temp
         String temp;
-
+        // temp holds the value of x before we swap
         temp = x;
+        // the value x is then changed to the value of y, "Kool-Aid"
         x = y;
+        // sets y to the orginal value of x that was stored in temp
         y = temp;
-
+        // prints out the text along with the value of x after the swap, so "Kool-Aid"
         System.out.println("x: " + x);
+        // prints out teh text along with water
         System.out.println("y: " + y);
 
     }
