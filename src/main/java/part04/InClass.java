@@ -10,16 +10,31 @@ public class InClass {
     public static void main(String[] args) {
 
         // STEP 1 — we do the pizza party math together, here.
+        int friends = 7;
+        int share1 = 3;
+        int totalSlices = friends * share1;
+        int pizzas = totalSlices / 8;
+        int leftOver = totalSlices % 8;
+        double exact = (double) totalSlices / 8;
+
+        System.out.println("Slices needed: " + totalSlices);
+        System.out.println("Whole pizzas: " + pizzas);
+        System.out.println("Slices left over: " + leftOver);
+        System.out.println("Exact pizzas: " + exact);
+        friends++;
+        System.out.println("A friend shows up. Friends: " + friends);
+
+
 
 
 
         // STEP 2 — fix the bugs. Each line below has ONE mistake.
         // Move ONE line at a time above the /* line, so Java sees it.
         // Read the red error (or the wrong output). Fix it. Run it. Then do the next line.
-        /*
-        int share = 10 / 4.0;
-        System.out.println("Total: " + 5 + 3);
-        System.out.println(totalSlices / (friends - friends));
-        */
+
+        int share = 10 / 4;
+        System.out.println("Total: " +( 5 + 3));
+        System.out.println(totalSlices / (friends));
+
     }
 }
