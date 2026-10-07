@@ -9,5 +9,49 @@ package part04;
 // There is no main method here yet. Typing it is part of the stretch.
 
 public class Stretch {
+    public static void main(String[] args){
+        /*
+        2
+        2
+        2.5
+        11
+        9
+        3.5
+        6
+         */
+        int n = 10;
+        System.out.println(n / 4);
+        System.out.println(n % 4);
+        System.out.println(n / 4.0);
+        n++;
+        System.out.println(n);
+        n--;
+        n--;
+        System.out.println(n);
+        System.out.println((double) 7 / 2);
+        System.out.println(7 / 2 * 2);
+
+        //B1
+        int friends = 4;
+        double bill = 50;
+        System.out.println("Each person pays $" + bill / friends);
+
+        //B2
+        int seconds = 500;
+        System.out.println(seconds + " seconds is " + seconds / 60 + " minutes and " + seconds % 60 + " seconds");
+
+        //B3
+        int s1 = 90;
+        int s2 = 85;
+        int s3 = 78;
+        System.out.println("int average: " + (s1 + s2 + s3) / 3 );
+        System.out.println("double average: " +(double) (s1 + s2 + s3) / 3 );
+
+
+
+
+
+
+    }
 
 }
