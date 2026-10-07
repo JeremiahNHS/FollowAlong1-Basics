@@ -15,16 +15,21 @@ import javax.swing.JOptionPane;
 //
 // SECTION B — COMMENTS: when you finish, put a // comment ABOVE every line of code,
 //    saying in YOUR OWN WORDS what that line does. That includes the import line.
-
+// This line defines the name of the class.
 public class GUI {
+    // The main method notifies the Java that this is the start of the program and makes it executable.
     public static void main(String[] args){
+        // makes a pop-up box prompting the user to enter their name and stores it the variable name of type string
         String name = JOptionPane.showInputDialog("Enter your name");
+        // creates another pop-up returning the text along with the inputted value
         JOptionPane.showMessageDialog(null, "Hello " + name);
-
+        // creates a pop-up that asks for the users age. since showInputDialog always returns a strings, Integer.parseInt casts it back to an int
         int age = Integer.parseInt(JOptionPane.showInputDialog("Enter your age"));
+        // creates another pop-up returning the text along with the inputted value
         JOptionPane.showMessageDialog(null, "You are " + age + " years old");
-
+        // creates a pop-up that asks for the users height. since showInputDialog always returns a strings, Double.parseDouble casts it back into a double
         double height = Double.parseDouble(JOptionPane.showInputDialog("Enter your height"));
+        // creates another pop-up returning the text along with the inputted value
         JOptionPane.showMessageDialog(null, "You are " + height + " cm tall");
 
 

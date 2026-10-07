@@ -13,13 +13,15 @@ package part04;
 //
 // SECTION B — COMMENTS: when you finish, put a // comment ABOVE every line of code,
 //    saying in YOUR OWN WORDS what that line does. The README shows an example.
-
+// This line defines the name of the class.
 public class Expressions {
+    // The main method notifies the Java that this is the start of the program and makes it executable.
     public static void main(String[] args){
+        // initializes the variable friends of type double with value 10
         double friends = 10;
-
+        // divides 10 by 3, friends is already a double so the casting is not need, it's redundant.
         friends = (double) friends / 3;
-
+        // prints out the updated value of friends 3.3333 repeating
         System.out.println(friends);
     }
 }
