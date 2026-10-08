@@ -14,20 +14,31 @@ import java.util.Scanner;
 //
 // SECTION B — COMMENTS: when you finish, put a // comment ABOVE every line of code,
 //    saying in YOUR OWN WORDS what that line does.
-
+// This line defines the name of the class.
 public class Hypotenuse {
+    // The main method notifies the Java that this is the start of the program and makes it executable.
     public static void main(String[] args){
+        // the declaration of x
         double x;
+        // the declaration of y
         double y;
+        // the declaration of x
         double z;
+        // creates a new Scanner in the heap called scanner
         Scanner scanner = new Scanner(System.in);
-
+        // prints out the text prompting for a side
         System.out.println("Enter side x: ");
+        // stores the user input in the variable x and waits for the user to press enter, only excepts doubles
         x = scanner.nextDouble();
+        // prints out the text prompting for a side
         System.out.println("Enter side y: ");
+        // stores the user input in the variable y and waits for the user to press enter, only excepts doubles
         y = scanner.nextDouble();
+        // solves for the hypotenuse and stores it in z
         z = Math.sqrt((x * x) + (y * y));
+        // prints out the text along with the value of z
         System.out.println("The hypotenuse is: " + z);
+        // lets java know that the scanner is done taking inputs
         scanner.close();
 
 
